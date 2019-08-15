@@ -16,7 +16,7 @@ var getJSON = function (url, callback) {
   var domain = window.location.hostname;
   console.log(domain);
 
-  var getLink = "http://api.notif.site/box/" + domain
+  var getLink = "https://api.notif.site/box/" + domain
 
   if (domain) {
     try {
