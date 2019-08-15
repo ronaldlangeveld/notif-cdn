@@ -14,8 +14,9 @@ var getJSON = function (url, callback) {
   };
 
   var domain = window.location.hostname;
+  console.log(domain);
 
-  var getLink = "http://127.0.0.1:3500/testingcors/" + domain
+  var getLink = "http://api.notif.site/box/" + domain
 
   if (domain) {
     try {
